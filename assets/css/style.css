@@ -1,0 +1,29 @@
+.thanos {
+    width: 700px;
+    margin: auto;
+}
+
+.row {
+    margin-top: 10px;
+    
+}
+.score-thanos {
+    background: #db603b;
+    border-radius: 25px;
+    font-size: 40px;
+    
+}
+
+.score-user {
+    background: #68b6d4;
+    border-radius: 25px;
+
+}
+
+.crystals {
+    /* width: 25px; */
+    /* height: 25px; */
+    float: left;
+    margin: 15px;
+    padding: 10px;
+}

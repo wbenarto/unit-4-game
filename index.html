@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+
+            <h1 class="display-4">Help the Avengers beat THANOS!</h1>
+            <p class="lead">Collect crystals and match his power to strip his gauntlet!</p>
+            <img src="assets/images/Thanos2.jpg" class="img-responsive thanos" alt="Thanos">
+
+            <!--Create button within all crystals-->
+            <section class="row">
+                <!-- <img src="assets/images/blue.jpg" alt="Space Stone" height="42" width="42"> -->
+                <button id="blue" class="crystals">
+                    <img src="assets/images/blue.jpg" alt="Space Stone" width="100">
+                </button>
+                <button id="purple" class="crystals">
+                    <img src="assets/images/purple.jpg" alt="Power Stone" width="100">
+                </button>
+                <button id="red" class="crystals">
+                    <img src="assets/images/red.jpg" alt="Reality Stone" width="100">
+                </button>
+                <button id="orange" class="crystals">
+                    <img src="assets/images/orange.jpg" alt="Soul Stone" width="100">
+                </button>
+            </section>
+
+            <div class="row">
+                <div class="col-md-6 score-thanos">
+                    <p>Thanos: <span id="power-thanos"></span></p>
+                </div>
+                <div class="col-md-6 score-user">
+                    <p>You: <span id="power-user"></span></p>
+                </div>
+            </div>
+            <p>Wins:<span id="wins"></span></p>
+            <p>Losses:<span id="losses"></span></p>
+        </div>
+    </div>
+
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
