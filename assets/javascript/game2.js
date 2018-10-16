@@ -25,11 +25,11 @@ $(".crystals").click(function() {
         $("#losses").text(losses);
         var image = $(".thanos");
         image.fadeOut( 500, function () {
-            image.attr({src: 'assets/images/spidey.jpg', height: 320, padding: 10});
+            image.attr({src: 'assets/images/Spidey.jpg', height: 320, padding: 10});
             image.fadeIn(1000);
         });
         image.fadeIn( 4000 , function() {
-            image.attr('src', 'assets/images/thanos2.jpg');
+            image.attr('src', 'assets/images/Thanos2.jpg');
             image.fadeIn('fast');
         });
         
